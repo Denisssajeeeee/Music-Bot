@@ -1,0 +1,20 @@
+{
+  "name": "fathar-music-bot",
+  "version": "1.0.0",
+  "description": "Telegram Music Bot - YouTube Music with Registration",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node --watch bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "yt-search": "^2.12.1",
+    "youtube-dl-exec": "^3.0.10"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "DennCode",
+  "license": "MIT"
+}
